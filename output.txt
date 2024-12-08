@@ -1,0 +1,53 @@
+Valid IP: 178.31.1.10
+Valid Timestamp: 10-12-22T10-59-59
+Valid status code: 404
+HTTP Method: POST
+URL: /login
+Response Time: 300ms
+Referrer: https://test.com
+Session ID: session789
+Request Code: req-123
+Log Entry Parsed Successfully.
+Done with the log
+
+
+Valid IP: 178.30.1.10
+Valid Timestamp: 10-12-22T10-10-25
+Valid status code: 404
+HTTP Method: POST
+URL: /login
+Response Time: 300ms
+Referrer: http://test.com
+Session ID: session789
+Request Code: req-123
+Log Entry Parsed Successfully.
+Done with the log
+
+
+Valid IP: 178.30.1.10
+Valid Timestamp: 10-12-22T10-10-25
+Invalid status code: 600
+HTTP Method: POST
+
+Symbol Table:
+IP_ADDRESS: 178.31.1.10
+TIMESTAMP: 10-12-22T10-59-59
+STATUS_CODE: 404
+HTTP_METHOD: POST
+URL: /login
+RESPONSE_TIME: 300ms
+REFERRER: https://test.com
+SESSION_ID: session789
+REQUEST_CODE: req-123
+IP_ADDRESS: 178.30.1.10
+TIMESTAMP: 10-12-22T10-10-25
+STATUS_CODE: 404
+HTTP_METHOD: POST
+URL: /login
+RESPONSE_TIME: 300ms
+REFERRER: http://test.com
+SESSION_ID: session789
+REQUEST_CODE: req-123
+IP_ADDRESS: 178.30.1.10
+TIMESTAMP: 10-12-22T10-10-25
+HTTP_METHOD: POST
